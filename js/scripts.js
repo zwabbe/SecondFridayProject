@@ -1,5 +1,14 @@
-function buttonChoices(compPreferences, phonePreferences){
-  return compPreferences + phonePreferences;
+function macIphone(compPreferences, phonePreferences){
+  return alert("You should try Ruby and Swift for your next Languages!");
+}
+function macAndroid(compPreferences, phonePreferences){
+  return alert("Not native to each other so some work arounds will have to be made.");
+}
+function pcIphone(compPreferences, phonePreferences){
+  return alert("Not native to each other so some work arounds will have to be made.");
+}
+function pcAndroid(compPreferences, phonePreferences){
+  return alert("You should try learning Java and C# for your next languages!");
 }
 
 
@@ -21,17 +30,18 @@ $(document).ready(function () {
   const compPreferences = parseInt($("input:radio[name=compPref]:checked").val());
   const phonePreferences = $("input:radio[name=phonePref]:checked").val();
   const sumOfChoices = (compPreferences + phonePreferences);
+  let result;
   if (sumOfChoices ==="13"){
-    alert("Mac/iPhone")
+    result= macIphone(compPreferences, phonePreferences);
   }
-  if (sumOfChoices==="14"){
-    alert("Mac/Android ");
-  }
-  if (sumOfChoices==="23"){
-    alert("PC/iPhone");
-  }
-  if (sumOfChoices==="24"){
-    alert("PC/Android");
+    else if (sumOfChoices==="14"){
+    result= macAndroid(compPreferences, phonePreferences)
+    }
+    else if (sumOfChoices==="23"){
+    result = pcIphone(compPreferences, phonePreferences);
+    }
+    else if (sumOfChoices==="24"){
+    result = pcAndroid(compPreferences, phonePreferences);
   }
   
     

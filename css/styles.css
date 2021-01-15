@@ -20,7 +20,12 @@ body{
 
 #imageSlide{
     background-image: url("/images/imgSlideIn.png");
-    z-index: 0;
+
+}
+#hiddenAnswer{
+    background-image: url("/images/MacSwift.jpg");
+    width: fixed;
+    height: fixed;
 }
 #submitButton {
     background-color: #4CAF50; /* Green */
@@ -34,28 +39,12 @@ body{
 }
 
 #hidden{
-    display: none;
-    z-index: 1;
-    overflow: hidden;
+    display: show;
+    z-index: 2;
 }
-img.tree{
-    width: 1000%;
-    height: 80;
-    background-position-x: 100;
-    background-position-x: -50;
-}
-img.bench{
-    width: 50%;
-    height: 75%;
-    background-position-x: 100;
-    background-position-x: 50;
-}
+
 p.textmiddle{
     color: #043580;
-}
-#imageSlideDiv{
-    width: fixed;
-    height: fixed;
 }
 
 
