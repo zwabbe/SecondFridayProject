@@ -1,19 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title></title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
+  <title>Untitled-1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
+  <!--Holds the entire image-->
+  <table id="Table_01" width="1366" height="768" cellpadding="0" cellspacing="0">
+
+    <!--left header-->
+    <tr>
+      <div>
+        <td id="leftHeader" width="411" height="205" alt="">
+          <form id="ageName">
+            <label for="inputName">Name:</label><br>
+            <input type="text" id="fname" placeholder="What's your name?"><br>
+            <label for="inputAge">Age</label><br>
+            <input type="text" id="lname" placeholder="How old are you?">
+          </form>
+        </td>
+      </div>
+      <!--Radio button locations-->
+
+      <div class=floatDivMiddle>
+        <td id="headerMiddle" width="556" height="205" alt="">
+          <div class="gamingRadio">
+
+            <form id="platformPref">
+              <label>
+                <input type="radio" name="yesNo" id="gamingYes"  value="yes">
+                Mac
+              </label>
+              <label>
+                <input type="radio" name="yesNo" id="gamingYes" value="no">
+                PC
+              </label>
+            </form>
+
+            <form id="phonePref">
+
+              What do you prefer to use:
+              <br>
+              <br>
+
+              <label>
+                <input type="radio" name="yesNo" id="gamingYes"  value="yes">
+                Iphone
+              </label>
+              <label>
+                <input type="radio" name="yesNo" id="gamingYes" value="no">
+                Android
+              </label>
+            </form>
+
+          </div>
+        </td>
+      </div>
+
+
+      <td>
+        <img src="images/topRightSpacer.png" width="399" height="205" alt="">
+      </td>
+    </tr>
+
+    <!-- sets the spacing the the middle 3 spliced sections-->
+    <tr>
+      <td rowspan="2">
+        <img src="images/leftBotSpacer.png" width="411" height="563" alt="">
+      </td>
+
+      <!--Location in which I need my images that respond to answers to appear-->
+      <div id="imageSlideDiv">
+        <td id="imageSlide" width="556" height="498" alt="">
+          <div id="hidden">
+            <img src="/images/imgSlideIn.png" class="tree"></img>
+          </div>
+        </td>
+      </div>
+
+      <!--more filler section-->
+      <td rowspan="2">
+        <img src="images/rightBotSpacer.png" width="399" height="563" alt="">
+      </td>
+    </tr>
+
+
+
+
+    <!--Footer of the image to help placement-->
+    <tr>
+      <td>
+        <img src="images/footerSpacer.png" width="556" height="65" alt="">
+      </td>
+    </tr>
+  </table>
+
+
+
 
 </body>
 

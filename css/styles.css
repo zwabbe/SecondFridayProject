@@ -1,0 +1,76 @@
+
+body{
+    background-color: #043580;
+}
+#Table_01{
+    background-color: #043580;
+}
+
+
+/*This controls the middle spliced section*/
+#headerMiddle{
+    background-image: url("/images/headerSpacer.jpg") ;
+}
+
+
+#leftHeader{
+    background-image: url("/images/topLeftSpacer.jpg");
+}
+
+
+#imageSlide{
+    background-image: url("/images/imgSlideIn.png");
+    z-index: 0;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+#hidden{
+    display: none;
+    z-index: 1;
+    overflow: hidden;
+}
+img.tree{
+    width: 1000%;
+    height: 80;
+    background-position-x: 100;
+    background-position-x: -50;
+}
+img.bench{
+    width: 50%;
+    height: 75%;
+    background-position-x: 100;
+    background-position-x: 50;
+}
+p.textmiddle{
+    color: #043580;
+}
+#imageSlideDiv{
+    width: fixed;
+    height: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
