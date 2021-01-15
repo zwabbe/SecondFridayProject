@@ -22,7 +22,7 @@ body{
     background-image: url("/images/imgSlideIn.png");
     z-index: 0;
 }
-button {
+#submitButton {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
