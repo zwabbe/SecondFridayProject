@@ -7,47 +7,138 @@ body{
 }
 
 
-/*This controls the middle spliced section*/
+header{
+  margin-top: 10px;
+  width: 1357px;
+  height: 80px;
+  background-color: #05204d;
+  border-top-right-radius: 40%;
+  font-size: 60px;
+  text-indent: 25px;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+h1{
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+}
+h2{
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+  font-size: 30;
+}
+.radioWordColors{
+  font-size: 20;
+  background-color: #05204d;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 10px;
+  color: aliceblue;
+}
+
+
+
+/*This controls the middle spliced section where the radio forms live*/
 #headerMiddle{
-    background-image: url("/images/headerSpacer.jpg") ;
+  background-image: url("/images/headerSpacer.jpg") ;
+  position: fixed;
+}
+
+/*Controls alignment, font, color in the radio forms*/
+#MacOrPc{
+ text-align: left;
+}
+#iphoneOrAndroid{
+  text-align: right;
+  margin-left: 200px;
+  margin-top: -100px;
 }
 
 
+
+/*This controls the area with the text input fields */
 #leftHeader{
-    background-image: url("/images/topLeftSpacer.jpg");
+  
+  background-image: url("/images/topLeftSpacer.jpg");
 }
+#ageName{
+  margin-left: 55px;
+  margin-top: 10px;
+}
+input#inputName,input#inputAge,input#inputProNoun{
+  background-color: #05204d;
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+form#AgeName{
+  color: #05204d;
+  font-weight: bold;
+  font-size: 16px;
+}
+.ReplacedNoun{
+  background-color: aqua;
+}
+p.info{
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-bottom: 200px;
+
+}
+
+
+
 
 /*The transparent image layer */
 #imageSlide{
-    background-image: url("/images/imgSlideIn.png");
-    display: hide;
+  background-image: url("/images/imgSlideIn.png");
+  
+  
+}
+#toggleMaciPhone{
+  background-image: url("/images/MacSwift.jpg");
+ 
 }
 
+
+
+/*Where the image answer should show after hitting the buttons*/
 #displayInput{
-    background-image: url("/images/MacSwift.jpg");
-    display: show;
-    text-align: center;
+  display: none;
+  text-align: center;
 }
 
 
+#rightTableSpacer{
+  background-image: url("/images/topRightSpacer.png");
+  border-top-right-radius: 4%;
+  border-bottom-right-radius: 4.5%;
+ 
+
+}
 #submitButton {
-    background-color: #4CAF50; /* Green */
+    background-color: #439e06; 
     border: none;
     color: white;
-    padding: 3px 3px;
-    text-align: center;
+    width: 249px;
+    height: 204px;
+    align-content: right;
+    padding: 40px 30px;
+    margin-left: 142px;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-}
-
-
-p.textmiddle{
-    color: #043580;
-}
-
-
-
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 20%;
+    }
 
 
 
