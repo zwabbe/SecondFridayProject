@@ -15,13 +15,7 @@
 
 <body>
 
-  LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-  USING THIS SECTION FOR A HEADER TO EXPLAIN OBJECTIVE OF PROJECT FOR LATER!
-  LALALA<br>
-  LALALA
-  LALALA</br>
-
-  <!--Holds the entire image-->
+   <!--Holds the entire image-->
   <table id="Table_01" width="1366" height="768" cellpadding="0" cellspacing="0">
 
     <!--left header-->
@@ -34,7 +28,7 @@
             <label for="inputAge">Age</label><br>
             <input type="input" value="age" id="inputAge"><br>
             <label for="inputNoun">Your Prefered Pronouns</label><br>
-            <input type="input" value="Pronoun" id="inputNoun">
+            <input type="input" value="Pronoun" id="inputPronoun">
           </form>
         </td>
       </div>
@@ -63,6 +57,7 @@
             <input type="radio" name="phonePref" id="android" value=4><br>
 
           </form>
+          <button type="success-btn" id="submitButton">Submit</button>
 
         </td>
       </div>
@@ -82,7 +77,11 @@
       <!--Location in which I need my images that respond to answers to appear-->
       <div id="imageSlideDiv">
         <td id="imageSlide" width="556" height="498" alt="">
-          <div id="hiddenAnswer"> </div>
+
+      <span id="displayInput">
+          <h1> Hello, <span class="replacedName"></span>!</h1>
+          <p><span class="replacedAge"></span> <span class="ReplacedNoun"></span></p>
+          </span>
         </td>
       </div>
 
@@ -102,10 +101,6 @@
       </td>
     </tr>
   </table>
-
-
-
-  <button type="success-btn" id="submitButton">Submit</button>
 </body>
 
 </html>

@@ -17,16 +17,19 @@ body{
     background-image: url("/images/topLeftSpacer.jpg");
 }
 
-
+/*The transparent image layer */
 #imageSlide{
     background-image: url("/images/imgSlideIn.png");
+    display: hide;
+}
 
-}
-#hiddenAnswer{
+#displayInput{
     background-image: url("/images/MacSwift.jpg");
-    width: fixed;
-    height: fixed;
+    display: show;
+    text-align: center;
 }
+
+
 #submitButton {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -35,13 +38,9 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 30px;
 }
 
-#hidden{
-    display: show;
-    z-index: 2;
-}
 
 p.textmiddle{
     color: #043580;

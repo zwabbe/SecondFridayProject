@@ -1,5 +1,11 @@
 function macIphone(compPreferences, phonePreferences){
-  return alert("You should try Ruby and Swift for your next Languages!");
+  const someNameInput = $("input#inputName").val();
+  const someAgeInput = $("input#inputAge").val();
+  const somePronounInput = $("input#inputPronoun").val();
+  $(".replacedName").text(someNameInput);
+  $(".replacedAge").text(someAgeInput);
+  $(".replacedNoun").text(somePronounInput);
+  $("#displayInput").fadeIn(100);
 }
 function macAndroid(compPreferences, phonePreferences){
   return alert("Not native to each other so some work arounds will have to be made.");
@@ -19,7 +25,6 @@ const age = $('#inputAge').val();
 const preferedNoun = $("#inputNoun").val();
 const compPreferences = parseInt($("input:radio[name=mac]:checked").val());
 const phonePreferences = parseInt($("input:radio[name=iphoneOrAndroid]:checked").val());
-let radioValCombined = (compPreferences + phonePreferences);
 
 
 $(document).ready(function () {
