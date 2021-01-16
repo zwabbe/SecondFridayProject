@@ -6,6 +6,7 @@ function macIphone(compPreferences, phonePreferences){
   $(".replacedAge").text(someAgeInput);
   $(".replacedNoun").text(somePronounInput);
   $("#displayInput").fadeIn(100);
+  alert("Wtih those choices you should try Ruby and Swift!");
 }
 function macAndroid(compPreferences, phonePreferences){
   return alert("Not native to each other so some work arounds will have to be made.");
@@ -14,7 +15,13 @@ function pcIphone(compPreferences, phonePreferences){
   return alert("Not native to each other so some work arounds will have to be made.");
 }
 function pcAndroid(compPreferences, phonePreferences){
-  return alert("You should try learning Java and C# for your next languages!");
+  const someNameInput = $("input#inputName").val();
+  const someAgeInput = $("input#inputAge").val();
+  const somePronounInput = $("input#inputPronoun").val();
+  $(".replacedName").text(someNameInput);
+  $(".replacedAge").text(someAgeInput);
+  $(".replacedNoun").text(somePronounInput);
+  alert("Wtih those choices you should try Ruby and Swift!");
 }
 
 
