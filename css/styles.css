@@ -83,29 +83,38 @@ form#AgeName{
   font-weight: bold;
   font-size: 16px;
 }
-.ReplacedNoun{
-  background-color: aqua;
-}
-p.info{
+
+#info{
   font-size: 50px;
   font-weight: bold;
   margin-right: 50px;
   margin-bottom: 200px;
+  display: none;
+  text-align: center;
+}
+.displayUnit{
+  display: none;
+}
 
+
+#displayInput2{
+  display: none;
 }
 
 
 
 
 /*The transparent image layer */
+
+
 #imageSlide{
   background-image: url("/images/imgSlideIn.png");
-  
+  align-content: space-around;
+  display: hide;
   
 }
 #toggleMaciPhone{
   background-image: url("/images/MacSwift.jpg");
- 
 }
 
 

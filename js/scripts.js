@@ -11,9 +11,6 @@ const somePronounInput = $("input#inputPronoun").val();
 
 
 
-
-
-
 function macIphone(compPreferences, phonePreferences){
   const someNameInput = $("input#inputName").val();
   const someAgeInput = $("input#inputAge").val();
@@ -21,11 +18,11 @@ function macIphone(compPreferences, phonePreferences){
   $(".replacedName").text(someNameInput);
   $(".replacedAge").text(someAgeInput);
   $(".replacedNoun").text(somePronounInput);
-  $("#displayInput").show();
-  alert("With those choices you should try Ruby and Swift!");
+  $("#displayInput").toggle();
+  return macIphone;
 }
 function macAndroid(compPreferences, phonePreferences){
-  return alert("Not native to each other so some work arounds will have to be made.");
+  return alert("You must be a mascochist");
 }
 function pcIphone(compPreferences, phonePreferences){
   return alert("Not native to each other so some work arounds will have to be made.");
@@ -37,9 +34,10 @@ function pcAndroid(compPreferences, phonePreferences){
   $(".replacedName").text(someNameInput);
   $(".replacedAge").text(someAgeInput);
   $(".replacedNoun").text(somePronounInput);
-  alert("With those choices you should try Java and C#");
-}
+  $("#displayInput").toggle();
 
+  return pcAndroid;
+}
 
 $(document).ready(function () {
   $("#submitButton").click(function () {
@@ -51,8 +49,7 @@ $(document).ready(function () {
   const sumOfChoices = (compPreferences + phonePreferences);
   let result;
   if (sumOfChoices ==="13"){
-    $()
-    result= macIphone(compPreferences, phonePreferences);
+       result= macIphone(compPreferences, phonePreferences);
   }
     else if (sumOfChoices==="14"){
     result= macAndroid(compPreferences, phonePreferences)
