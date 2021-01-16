@@ -29,6 +29,15 @@ h2{
 }
 
 
+
+
+
+
+/*This controls the middle spliced section where the radio forms live*/
+#headerMiddle{
+  background-image: url("/images/headerSpacer.jpg") ;
+  position: fixed;
+}
 .radioWordColors{
   font-size: 20;
   background-color: #05204d;
@@ -40,15 +49,6 @@ h2{
   color: aliceblue;
 }
 
-
-
-/*This controls the middle spliced section where the radio forms live*/
-#headerMiddle{
-  background-image: url("/images/headerSpacer.jpg") ;
-  position: fixed;
-}
-
-/*Controls alignment, font, color in the radio forms*/
 #MacOrPc{
  text-align: left;
 }
@@ -60,7 +60,8 @@ h2{
 
 
 
-/*This controls the area with the text input fields */
+
+/*Color and font settings for inside the input fields*/
 #leftHeader{
   
   background-image: url("/images/topLeftSpacer.jpg");
@@ -78,38 +79,37 @@ input#inputName,input#inputAge,input#inputProNoun{
 
 
 
-/*The transparent image layer */
+/*Text and image holder for displayed answers area*/
 
 #displayInput{
   background-image: url("/images/imgSlideIn.jpg");
   align-content: space-around;
 }
-.swiftHide1{
-  
 
-  
+.MacDisplayInput{
+  text-align: center;
+}
+.PcDisplayInput{
+  text-align: center;
+}
+.swiftHide1{
+font-size: 40px;
+font-family: fantasy;
 }
 .swiftHide2{
-
-}
-/*Where the image answer should show after hitting the buttons*/
-.MacDisplayInput{
-     text-align: center;
-}
-.PcdDisplayInput{
-  text-align: center;
-  display: none;
-  
+font-size: 40px;
+font-family: fantasy;
 }
 
 
+
+
+/*Right side section with spacer image and submit button*/
 
 #rightTableSpacer{
   background-image: url("/images/topRightSpacer.png");
   border-top-right-radius: 4%;
   border-bottom-right-radius: 4.5%;
- 
-
 }
 #submitButton {
     background-color: #439e06; 

@@ -17,8 +17,7 @@ function macIphone(compPreferences, phonePreferences) {
   const someAgeInput = $("input#inputAge").val();
   const someProNounInput = $("input#inputProNoun").val();
   $(".PcDisplayInput").hide();
-  $(".MacDisplayInput").toggle();
-  $("#swiftHide1").toggle();
+  $(".MacDisplayInput").fadeIn(2000);
   $(".replacedName").text(someNameInput);
   $(".replacedAge").text(someAgeInput);
   $(".replacedProNoun").text(someProNounInput);
@@ -35,13 +34,11 @@ function pcAndroid(compPreferences, phonePreferences) {
   const someAgeInput = $("input#inputAge").val();
   const someProNounInput = $("input#inputProNoun").val();
   $(".MacDisplayInput").hide();
-  $(".PcDisplayInput").toggle();
-  $("#swiftHide2").toggle();
+  $(".PcDisplayInput").fadeIn(2000);
   $(".replacedName").text(someNameInput);
   $(".replacedAge").text(someAgeInput);
   $(".replacedProNoun").text(someProNounInput);
     return pcAndroid;
-
 }
 
 $(document).ready(function () {
