@@ -14,11 +14,7 @@
 
 <body>
   <header>Let's press some buttons</header>
-
-  <!--Holds the entire image-->
   <table id="Table_01" width="1366" height="768" cellpadding="0" cellspacing="0">
-
-    <!--left header-->
     <tr>
       <div>
         <td id="leftHeader" width="411" height="205" alt="">
@@ -27,18 +23,13 @@
             <input type="input" onfocus="this.value=''" value="Name" id="inputName"><br>
             <label for="inputAge">Age:</label><br>
             <input type="input" onfocus="this.value=''" value="Age" id="inputAge"><br>
-            <label for="inputNoun">Your Prefered Pronouns:</label><br>
-            <input type="input" onfocus="this.value=''" value="Pronoun" id="inputPronoun">
+            <label for="inputProNoun">Your Prefered Pronouns:</label><br>
+            <input type="input" onfocus="this.value=''" value="ProNoun" id="inputProNoun">
           </form>
         </td>
       </div>
-
-      <!--Radio button locations-->
-
       <div class=floatDivMiddle>
         <td id="headerMiddle" width="556" height="205" alt="">
-
-
           <form id="MacOrPC">
             <h1>Are you a Mac or PC person...........</h1>
             <label for="Mac" class="radioWordColors">Mac!</label>
@@ -52,46 +43,42 @@
             <h2>.....what about your phone?</h2>
             <br>
             <label for="iPhone" class="radioWordColors" 1>iPhone</label>
-            <input type="radio" name="phonePref" id="iPhone" value=3 :checked>
+            <input type="radio" name="phonePref" id="iPhone" value="3" :checked>
             <label for="android" class="radioWordColors">Android</label>
-            <input type="radio" name="phonePref" id="android" value=4>
+            <input type="radio" name="phonePref" id="android" value="4">
           </form>
         </td>
       </div>
-
-
       <td id="rightTableSpacer" width="399" height="205" alt="">
         <button class="btn" type="success-btn" id="submitButton">Submit</button>
-
       </td>
     </tr>
-
-    <!-- sets the spacing the the middle 3 spliced sections-->
     <tr>
       <td rowspan="2">
         <img src="images/leftBotSpacer.png" width="411" height="563" alt="">
       </td>
-
       <!--Location in which I need my images that respond to answers to appear-->
-      <div id="imageSlideDiv">
-        <td id="imageSlide" width="556" height="498" alt="">
-            <span id="displayInput">
-            <h3> Hello, <span class="replacedName"></span>!</h3>
-            <span class="replacedAge"></span> , <span class="ReplacedNoun"></span>
-            <p>You should check out these Languages for your next objective:Ruby and Swift!</p>
-          </span>
+      
+      <td id="displayInput" width="556" height="498">
+        <div class="MacDisplayInput" width="556" height="498">
+          <p class="swiftHide1">Hello, <span class="replacedName"></span>!
+          <br>
+          <span class="replacedAge"></span> , <span class="ReplacedProNoun"></span>
+          <br>
+          You should check out these Languages for your next objective!
+          </p>
+        </div>
+      
+        <div class="PcDisplayInput" width="556" height="498">
+          <p class="swiftHide2">Hello, <span class="replacedName"></span>!
+          <br>
+          <span class="replacedAge"></span> , <span class="ReplacedProNoun"></span><br>
+          <br>
+          you should try ou
+          </p>
+        </div>
 
-          <span id="displayInput2">
-            <h3> Hello, <span class="replacedName"></span>!</h3>
-            <span class="replacedAge"></span> , <span class="ReplacedNoun"></span>
-            <p>You should check out these Languages for your next objective: Java and C#</p>
-          
-          </span>
-
-        </td>
-      </div>
-
-      <!--more filler section-->
+      </td>
       <td rowspan="2">
         <img src="images/rightBotSpacer.png" width="399" height="563" alt="">
       </td>

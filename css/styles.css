@@ -2,10 +2,6 @@
 body{
     background-color: #043580;
 }
-#Table_01{
-    background-color: #043580;
-}
-
 
 header{
   margin-top: 10px;
@@ -31,6 +27,8 @@ h2{
   text-align: left;
   font-size: 30;
 }
+
+
 .radioWordColors{
   font-size: 20;
   background-color: #05204d;
@@ -75,30 +73,6 @@ input#inputName,input#inputAge,input#inputProNoun{
   background-color: #05204d;
   color: #ffffff;
   font-weight: bold;
-
-}
-
-form#AgeName{
-  color: #05204d;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-#info{
-  font-size: 50px;
-  font-weight: bold;
-  margin-right: 50px;
-  margin-bottom: 200px;
-  display: none;
-  text-align: center;
-}
-.displayUnit{
-  display: none;
-}
-
-
-#displayInput2{
-  display: none;
 }
 
 
@@ -106,24 +80,28 @@ form#AgeName{
 
 /*The transparent image layer */
 
-
-#imageSlide{
-  background-image: url("/images/imgSlideIn.png");
+#displayInput{
+  background-image: url("/images/imgSlideIn.jpg");
   align-content: space-around;
-  display: hide;
+}
+.swiftHide1{
+  
+
   
 }
-#toggleMaciPhone{
-  background-image: url("/images/MacSwift.jpg");
+.swiftHide2{
+
 }
-
-
-
 /*Where the image answer should show after hitting the buttons*/
-#displayInput{
-  display: none;
-  text-align: center;
+.MacDisplayInput{
+     text-align: center;
 }
+.PcdDisplayInput{
+  text-align: center;
+  display: none;
+  
+}
+
 
 
 #rightTableSpacer{

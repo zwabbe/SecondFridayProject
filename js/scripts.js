@@ -2,66 +2,69 @@
 
 const name = $('#inputName').val();
 const age = $('#inputAge').val();
-const preferedNoun = $("#inputNoun").val();
-const compPreferences = parseInt($("input:radio[name=mac]:checked").val());
-const phonePreferences = parseInt($("input:radio[name=iphoneOrAndroid]:checked").val());
+const preferedProNoun = $("#inputProNoun").val();
+const compPreferences = parseInt($("input:radio[name=compPref]:checked").val());
+const phonePreferences = $("input:radio[name=phonePref]:checked").val();
 const someNameInput = $("input#inputName").val();
 const someAgeInput = $("input#inputAge").val();
-const somePronounInput = $("input#inputPronoun").val();
+const someProNounInput = $("input#inputProNoun").val();
 
 
 
-function macIphone(compPreferences, phonePreferences){
+
+function macIphone(compPreferences, phonePreferences) {
   const someNameInput = $("input#inputName").val();
   const someAgeInput = $("input#inputAge").val();
-  const somePronounInput = $("input#inputPronoun").val();
+  const someProNounInput = $("input#inputProNoun").val();
+  $(".PcDisplayInput").hide();
+  $(".MacDisplayInput").toggle();
+  $("#swiftHide1").toggle();
   $(".replacedName").text(someNameInput);
   $(".replacedAge").text(someAgeInput);
-  $(".replacedNoun").text(somePronounInput);
-  $("#displayInput").toggle();
+  $(".replacedProNoun").text(someProNounInput);
   return macIphone;
 }
-function macAndroid(compPreferences, phonePreferences){
-  return alert("You must be a mascochist");
-}
-function pcIphone(compPreferences, phonePreferences){
+function macAndroid(compPreferences, phonePreferences) {
   return alert("Not native to each other so some work arounds will have to be made.");
 }
-function pcAndroid(compPreferences, phonePreferences){
+function pcIphone(compPreferences, phonePreferences) {
+  return alert("Not native to each other so some work arounds will have to be made.");
+}
+function pcAndroid(compPreferences, phonePreferences) {
   const someNameInput = $("input#inputName").val();
   const someAgeInput = $("input#inputAge").val();
-  const somePronounInput = $("input#inputPronoun").val();
+  const someProNounInput = $("input#inputProNoun").val();
+  $(".MacDisplayInput").hide();
+  $(".PcDisplayInput").toggle();
+  $("#swiftHide2").toggle();
   $(".replacedName").text(someNameInput);
   $(".replacedAge").text(someAgeInput);
-  $(".replacedNoun").text(somePronounInput);
-  $("#displayInput").toggle();
+  $(".replacedProNoun").text(someProNounInput);
+    return pcAndroid;
 
-  return pcAndroid;
 }
 
 $(document).ready(function () {
-  $("#submitButton").click(function () {
-  const name = $('#inputName').val();
-  const age = $('#inputAge').val();
-  const preferedNoun = $("#inputNoun").val();
-  const compPreferences = parseInt($("input:radio[name=compPref]:checked").val());
-  const phonePreferences = $("input:radio[name=phonePref]:checked").val();
-  const sumOfChoices = (compPreferences + phonePreferences);
-  let result;
-  if (sumOfChoices ==="13"){
-       result= macIphone(compPreferences, phonePreferences);
-  }
-    else if (sumOfChoices==="14"){
-    result= macAndroid(compPreferences, phonePreferences)
+    $(".MacDisplayInput").hide();
+    $(".PcDisplayInput").hide();
+    $("#submitButton").click(function () {
+    const compPreferences = parseInt($("input:radio[name=compPref]:checked").val());
+    const phonePreferences = $("input:radio[name=phonePref]:checked").val();
+    const sumOfChoices = (compPreferences + phonePreferences);
+    const age = $('#inputAge').val();
+    let result;
+    if (sumOfChoices === "13") {
+      result = macIphone(compPreferences, phonePreferences);
     }
-    else if (sumOfChoices==="23"){
-    result = pcIphone(compPreferences, phonePreferences);
+    else if (sumOfChoices === "14") {
+      result = macAndroid(compPreferences, phonePreferences);
     }
-    else if (sumOfChoices==="24"){
-    result = pcAndroid(compPreferences, phonePreferences);
-  }
-  
-    
+    if (sumOfChoices === "23") {
+      result = pcIphone(compPreferences, phonePreferences);
+    }
+    else if (sumOfChoices === "24") {
+      result = pcAndroid(compPreferences, phonePreferences);
+    }
     event.preventDefault();
   });
 });
