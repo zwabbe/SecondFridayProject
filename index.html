@@ -18,67 +18,67 @@
     <tr>
       <div>
         <td id="leftHeader" width="411" height="205" alt="">
-          <form id="ageName">
-            <label for="inputName">Name:</label><br>
-            <input type="input" onfocus="this.value=''" value="Name" id="inputName"><br>
-            <label for="inputAge">Age:</label><br>
-            <input type="input" onfocus="this.value=''" value="Age" id="inputAge"><br>
-            <label for="inputProNoun">Your Prefered Pronouns:</label><br>
-            <input type="input" onfocus="this.value=''" value="ProNoun" id="inputProNoun">
-          </form>
+          <form id="Questionare">
+            <label for="inputName">Name:</label>
+            <input type="input" onfocus="this.value=''" value="Name" id="inputName">
+            <p class="textMargin">Companion choice...</p>
+            <label for="dog" class="radioWordColors1" 1>Dog</label>
+            <input type="radio" name="q1" id="dog" value="1" :checked>
+            <label for="q1" class="radioWordColors1">Cat</label>
+            <input type="radio" name="q1" id="cat" value="0">
+            <p class="textMargin">Rather swim at....</p>
+            <label for="river" class="radioWordColors1" 1>River</label>
+            <input type="radio" name="q2" id="river" value="1" :checked>
+            <label for="beach" class="radioWordColors1">Beach</label>
+            <input type="radio" name="q2" id="beach" value="0">
+            <p class="textMargin">What is your normal pace?</p>
+            <label for="walk" class="radioWordColors1" 1>Walk</label>
+            <input type="radio" name="q3" id="walk" value="1" :checked>
+            <label for="flee" class="radioWordColors1">Run</label>
+            <input type="radio" name="q3" id="flee" value="0">
         </td>
       </div>
       <div class=floatDivMiddle>
         <td id="headerMiddle" width="556" height="205" alt="">
-          <form id="MacOrPC">
-            <h1>Are you a Mac or PC person...........</h1>
-            <label for="Mac" class="radioWordColors">Mac!</label>
-            <input type="radio" name="compPref" id="Mac" value="1" :checked>
-            <label for="PC" class="radioWordColors">PC!</label>
-            <input type="radio" name="compPref" id="PC" value="2">
-          </form>
-          <form id="iphoneOrAndroid">
-            <br>
-            <br>
-            <h2>.....what about your phone?</h2>
-            <br>
-            <label for="iPhone" class="radioWordColors" 1>iPhone</label>
-            <input type="radio" name="phonePref" id="iPhone" value="3" :checked>
-            <label for="android" class="radioWordColors">Android</label>
-            <input type="radio" name="phonePref" id="android" value="4">
-          </form>
+          <h1>Are you a Mac or PC person...........</h1>
+          <label for="Mac" class="radioWordColors">Mac!</label>
+          <input type="radio" name="q4" id="Mac" value="1" :checked>
+          <label for="PC" class="radioWordColors">PC!</label>
+          <input type="radio" name="q4" id="PC" value="0">
+          <h2>.....what about your phone?</h2>
+          <label for="iPhone" class="radioWordColors" 1>iPhone</label>
+          <input type="radio" name="q5" id="iPhone" value="1" :checked>
+          <label for="android" class="radioWordColors">Android</label>
+          <input type="radio" name="q5" id="android" value="0">
+
         </td>
       </div>
-      <td id="rightTableSpacer" width="399" height="205" alt="">
-        <button class="btn" type="success-btn" id="submitButton">Submit</button>
+      <td id="rightTableSpacer" width="399" height="100" alt="">
+        <button class="btn submit" id="submitButton">Submit</button>
       </td>
     </tr>
+    </form>
     <tr>
       <td rowspan="2">
         <img src="images/leftBotSpacer.png" width="411" height="563" alt="">
       </td>
-      <!--Location in which I need my images that respond to answers to appear-->
 
       <td id="displayInput" width="556" height="498">
-        <div class="MacDisplayInput" width="556" height="498">
+        <div class="resultShow1" width="556" height="498">
           <p class="swiftHide1">Hello, <span class="replacedName"></span>!
-            <br>
-            <span class="replacedAge"></span> , <span class="ReplacedProNoun"></span>
-            <br>
-            <br>
-            <br>
             With those choices you should check out Ruby and Swift!
           </p>
         </div>
 
-        <div class="PcDisplayInput" width="556" height="498">
+        <div class="resultShow2" width="556" height="498">
           <p class="swiftHide2">Hello, <span class="replacedName"></span>!
-            <br>
-            <span class="replacedAge"></span> , <span class="ReplacedProNoun"></span>
-            <br>
-            <br>
-            <br>
             With those choices you should check out Java and C#!
+          </p>
+        </div>
+
+        <div class="resultShow3" width="556" height="498">
+          <p class="swiftHide2">Hello, <span class="replacedName"></span>!
+            With those choices you should check out adsfadsfdf
           </p>
         </div>
 
@@ -87,10 +87,6 @@
         <img src="images/rightBotSpacer.png" width="399" height="563" alt="">
       </td>
     </tr>
-
-
-
-
     <!--Footer of the image to help placement-->
     <tr>
       <td>
