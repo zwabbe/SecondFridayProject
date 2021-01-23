@@ -79,7 +79,7 @@ font-size: 40px;
 font-family: fantasy;
 }
 #rightTableSpacer{
-background-image: url("/images/topRightSpacer.png");
+background-image: url("../images/topRightSpacer.png");
 }
 #submitButton {   
 background-color: #439e06; 

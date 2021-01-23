@@ -22,23 +22,27 @@ Jeremy Miller
 Welcome to my second Friday Project! I hope you enjoy your stay :)
 
 
-## Check out my page and repos here:
+## My links:
 
-https://github.com/zwabbe/
+Check out my main [Repo](https://github.com/zwabbe/) here!
 
-or if you wanna view this project now.. Head over to here:
+You can check out the live page over [here!](https://zwabbe.github.io/SecondFridayProject/)
+ 
 
-https://zwabbe.github.io/SecondFridayProject/
 
 
 ## Setup/Installation 
 
-First input your Name, Age, Preferred pronouns then select your favorite options from the two radio buttons before hitting submit!
+* Clone the repo with this link 
+ * https://github.com/zwabbe/SecondFridayProject.git
+* Open Index.html with your preferred editor and plug away with any edits you'd like! I suggest using VScode! 
+  * To view it just open the index.html file and it should open with your default browser.
+
+* Please note that an alert will be played if the default value for the Name input hasn't changed. 
 
 ## Known bugs / Issues
 
-* Website isnt showing full range of animations so it may look weak right now! :) 
-* Need to add a prompt for missing or empty input fields/radio buttons.
+* None at first glance but please message me if you find something that I didn't! 
 
 ## License 
 
