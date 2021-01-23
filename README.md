@@ -26,12 +26,21 @@ Welcome to my second Friday Project! I hope you enjoy your stay :)
 
 Check out my main [Repo](https://github.com/zwabbe/) here!
 
-You can check out the live page over [here!](https://zwabbe.github.io/SecondFridayProject/)
  
 
 
 
-## Setup/Installation 
+## Use/Installation 
+
+You can check out the live page over [here!](https://zwabbe.github.io/SecondFridayProject/)
+The design is very straight forward! But go ahead and input your name into the text field! After that go ahead and select your favorite options from the radio buttons before hitting submit for your message! 
+
+
+
+* Please note that an alert will be played if the default value for the Name input hasn't changed. 
+
+
+If you wish to make your own changes to the site follow this :
 
 * Clone the repo with this link:
 
@@ -41,7 +50,6 @@ You can check out the live page over [here!](https://zwabbe.github.io/SecondFrid
 
   * To view it just open the index.html file and it should open with your default browser.
 
-* Please note that an alert will be played if the default value for the Name input hasn't changed. 
 
 ## Known bugs / Issues
 
