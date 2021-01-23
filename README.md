@@ -1,4 +1,4 @@
-# Second Friday Project :) 
+# Welcome to my Second Friday Project :) 
 
 
 
@@ -33,9 +33,12 @@ You can check out the live page over [here!](https://zwabbe.github.io/SecondFrid
 
 ## Setup/Installation 
 
-* Clone the repo with this link 
- * https://github.com/zwabbe/SecondFridayProject.git
+* Clone the repo with this link:
+
+  * https://github.com/zwabbe/SecondFridayProject.git
+
 * Open Index.html with your preferred editor and plug away with any edits you'd like! I suggest using VScode! 
+
   * To view it just open the index.html file and it should open with your default browser.
 
 * Please note that an alert will be played if the default value for the Name input hasn't changed. 

@@ -11,7 +11,7 @@ $(document).ready(function () {
     const q5 = parseInt($("input:radio[name=q5]:checked").val());
     const someNameInput = $("input#inputName").val();
     let sumOfChoices = q1 + q2 + q3 + q4 + q5;
-  
+
     if (someNameInput === "") {
       alert("Please enter your name!")
     }
