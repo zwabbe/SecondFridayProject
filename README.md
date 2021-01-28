@@ -3,12 +3,12 @@
 
 
 
-#### Created by :
+## Created by :
 
 Jeremy Miller 
 <Gkstaff@gmail.com>
 
-## Languages and tools used
+# Languages and tools used
 
 * _HTML_
 * _CSS_
@@ -17,12 +17,15 @@ Jeremy Miller
 
 
 
-## Description 
-
-Welcome to my second Friday Project! I hope you enjoy your stay :)
+# Description 
 
 
-## My links:
+Welcome to my second Friday Project! This is a test to take in a little bit of info about the user(You!) and tell them which programming language they should learn first!
+
+
+
+# My links:
+
 
 Check out my main [Repo](https://github.com/zwabbe/) here!
 
@@ -30,35 +33,43 @@ Check out my main [Repo](https://github.com/zwabbe/) here!
 
 
 
-## Use/Installation 
+# Use/Installation 
+
+
 
 You can check out the live page over [here!](https://zwabbe.github.io/SecondFridayProject/)
-The design is very straight forward! But go ahead and input your name into the text field! After that go ahead and select your favorite options from the radio buttons before hitting submit for your message! 
+
+
+How to use the site:
+
+* Steps are pretty easy but follow along if you need:
+
+  * Input your name into the text field! 
+
+  * Select your favorites between the options (Make sure to select them all...or else...)
+ 
+  * Press submit to get your answer!
 
 
 
-* Please note that an alert will be played if the default value for the Name input hasn't changed. 
+
+## If you wish to make your own changes to the site follow this :
 
 
-If you wish to make your own changes to the site follow this :
 
-* Clone the repo with this link:
-
-  * https://github.com/zwabbe/SecondFridayProject.git
+* Clone the repo with this link:https://github.com/zwabbe/SecondFridayProject.git
 
 * Open Index.html with your preferred editor and plug away with any edits you'd like! I suggest using VScode! 
 
-  * To view it just open the index.html file and it should open with your default browser.
+* To view it just open the index.html file and it should open with your default browser.
 
-
-## Known bugs / Issues
+# Known bugs / Issues
 
 * None at first glance but please message me if you find something that I didn't! 
 
-## License 
+# License 
+[CC0](https://github.com/idleberg/Creative-Commons-Markdown/blob/master/4.0/zero.markdown)
 
-You have my full permission to use and edit this website to your own liking and use it in personal projects. I ask that you at least credit me in the code or footer. 
-
-## Contact information
+# Contact information
 
 If you have any questions or concerns shoot me an [Email](mailto:gkstaff@gmail.com) ! Or shoot me a message through Discord:Zwabbe@7788.
