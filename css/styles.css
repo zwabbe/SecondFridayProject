@@ -1,116 +1,121 @@
-body{
-background-color: #043580;
-}
-header{
-margin-top: 10px;
-width: 1357px;
-height: 80px;
-background-color: #05204d;
-border-top-right-radius: 40%;
-font-size: 60px;
-text-indent: 25px;
-font-style: italic;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: rgb(255, 255, 255);
-}
-h1{
-color: rgb(255, 255, 255);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-align: left;
-}
-h2{
-color: rgb(255, 255, 255);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-align: left;
-font-size: 25px;
-}
-h3{
-    color: rgb(6, 11, 58);
-    text-align: center;
-    font-weight: 900;
-}
-.textMargin{
-font-weight: bold;
-width: 200px;
-height: 10px;
-color: #ffffff;
-}
-#questionare{
-line-height: 15px;
-margin-left: 20px;
-margin-top: 6px;
-}
-#headerMiddle{
-background-image: url("../images/headerSpacer.jpg") ;
-}
-.middleRadioWordColors{
-font-size: 20;
-background-color: #05204d;
-border-bottom-left-radius: 30px;
-border-top-left-radius: 20px;
-border-top-right-radius: 30px;
-border-bottom-right-radius: 10px;
-padding: 10px 10px;
-color: aliceblue;
-}
-.leftRadioWordColors{
-color: #043580;
-font-weight:500;
-}
-#leftHeader{
-background-image: url("../images/topLeftSpacer.jpg");
-}
-input#inputName{
-background-color: #05204d;
-color: #ffffff;
-font-weight: bold;
-}
-#displayInput{
-background-image: url("../images/imgSlideIn.jpg");
-align-content: space-around;
-}
-.resultShow1,.resultShow2,.resultShow3{
-text-align: center;
-display: none;
-}
-.swiftHide1{
-font-size: 40px;
-font-family: fantasy;
-}
-.swiftHide2{
-font-size: 40px;
-font-family: fantasy;
-}
-#rightTableSpacer{
-background-image: url("../images/topRightSpacer.png");
-}
-#submitButton {   
-background-color: #439e06; 
-border: none;
-color: white;
-width: 249px;
-height: 204px;
-align-content: right;
-padding: 40px 30px;
-margin-left: 142px;
-text-decoration: none;
-display: inline-block;
-font-size: 30px;
-border-bottom-left-radius: 40%;
-border-bottom-right-radius: 20%;
+body {
+  background-color: #043580;
 }
 
+header {
+  margin-top: 10px;
+  width: 1357px;
+  height: 80px;
+  background-color: #05204d;
+  border-top-right-radius: 40%;
+  font-size: 60px;
+  text-indent: 25px;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 255, 255);
+}
 
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: left;
+}
 
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschwe/*  */
+  iler, "Arial Narrow Bold", sans-serif;
+  text-align: left;
+  font-size: 25px;
+}
 
+h3 {
+  color: rgb(6, 11, 58);
+  text-align: center;
+  font-weight: 900;
+}
 
+.textMargin {
+  font-weight: bold;
+  width: 200px;
+  height: 10px;
+  color: #ffffff;
+}
 
+#questionare {
+  line-height: 15px;
+  margin-left: 20px;
+  margin-top: 6px;
+}
 
+#headerMiddle {
+  background-image: url("../images/headerSpacer.jpg");
+}
 
+.middleRadioWordColors {
+  font-size: 20;
+  background-color: #05204d;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 10px;
+  color: aliceblue;
+}
 
+.leftRadioWordColors {
+  color: #043580;
+  font-weight: 500;
+}
 
+#leftHeader {
+  background-image: url("../images/topLeftSpacer.jpg");
+}
 
+input#inputName {
+  background-color: #05204d;
+  color: #ffffff;
+  font-weight: bold;
+}
 
+#displayInput {
+  background-image: url("../images/imgSlideIn.jpg");
+  align-content: space-around;
+}
 
+.resultShow1,
+.resultShow2,
+.resultShow3 {
+  text-align: center;
+  display: none;
+}
 
+.swiftHide1 {
+  font-size: 40px;
+  font-family: fantasy;
+}
 
+.swiftHide2 {
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+#rightTableSpacer {
+  background-image: url("../images/topRightSpacer.png");
+}
+
+#submitButton {
+  background-color: #439e06;
+  border: none;
+  color: white;
+  width: 249px;
+  height: 204px;
+  align-content: right;
+  padding: 40px 30px;
+  margin-left: 142px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 20%;
+}
