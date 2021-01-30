@@ -6,30 +6,39 @@ function summifyMe() {
   const q4 = parseInt($("input:radio[name=q4]:checked").val());
   const q5 = parseInt($("input:radio[name=q5]:checked").val());
   const someNameInput = $("input#inputName").val();
-  let sumOfChoices = q1 + q2 + q3 + q4 + q5;
-  if (sumOfChoices === 2 || sumOfChoices === 4) {
+  let sumOfChoices = (q1 + q2 + q3 + q4 + q5);
+  if (sumOfChoices === 5) {
+    $(".resultShow1").hide();
+    $(".resultShow2").hide();
+    $(".resultShow3").hide();
+    $("#error").hide();
+    $(".resultShow4").fadeIn(2000);
+    $(".replacedName").text(someNameInput);
+  } else if (sumOfChoices === 0 || sumOfChoices === 3) {
     $("#error").hide();
     $(".resultShow2").hide();
     $(".resultShow3").hide();
+    $(".resultShow4").hide();
     $(".resultShow1").fadeIn(2000);
     $(".replacedName").text(someNameInput);
-  } else if (sumOfChoices === 1 || sumOfChoices === 3) {
+  } else if (sumOfChoices === 1 || sumOfChoices === 4) {
     $("#error").hide();
     $(".resultShow1").hide();
     $(".resultShow3").hide();
+    $(".resultShow4").hide();
     $(".resultShow2").fadeIn(2000);
     $(".replacedName").text(someNameInput);
-  } else if (sumOfChoices === 0 || sumOfChoices === 5) {
+  } else if (sumOfChoices === 2) {
     $("#error").hide();
+    $(".resultShow4").hide();
     $(".resultShow1").hide();
     $(".resultShow2").hide();
     $(".resultShow3").fadeIn(2000);
     $(".replacedName").text(someNameInput);
-  } else !sumOfChoices;
-  $("#error").text(
-    "Bzzzzzz--Zzz-tTt-zz......Error!!!..........Please select every option before resubmitting or System files will be wiped!"
-  );
+  } else(!sumOfChoices)
+  $("#error").text("Bzzzzzz--Zzz-tTt-zz......Error!!!..........Please select every option before resubmitting or System files will be wiped!")
 }
+
 
 //UI logic
 $(document).ready(function() {

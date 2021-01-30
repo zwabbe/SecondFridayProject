@@ -65,7 +65,8 @@ How to use the site:
 
 # Known bugs / Issues
 
-* None at first glance but please message me if you find something that I didn't! 
+* Code could probably be condensed down in the if/else section
+* No check on submit for empty name input field.
 
 # License 
 [CC0](https://github.com/idleberg/Creative-Commons-Markdown/blob/master/4.0/zero.markdown)

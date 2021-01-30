@@ -85,7 +85,8 @@ input#inputName {
 
 .resultShow1,
 .resultShow2,
-.resultShow3 {
+.resultShow3,
+.resultShow4 {
   text-align: center;
   display: none;
 }
